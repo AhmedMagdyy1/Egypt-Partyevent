@@ -5,7 +5,7 @@
 }
 /* Start Header Section */
 header {
-    background-image: url(/Images/events-heavenly-header.jpg);
+    background-image: url(Images/events-heavenly-header.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -91,7 +91,7 @@ header .navigation #btn p {
 
 /* Start Duration Section */
 #Duration {
-    background-image: url(/Images/invitation-2508607__340.jpg);
+    background-image: url(Images/invitation-2508607__340.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;
