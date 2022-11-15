@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* Start Header Section */
+header {
+    background-image: url(/Images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.overlay {
+    inset: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    z-index: 1;
+}
+header .party{
+    position: relative !important;
+    top: 50%;
+    z-index: 3;
+}
+header #close {
+    cursor: pointer;
+}
+header .navigation {
+    z-index: 5555555;
+    width: 250px;
+    height: 100%;
+    background-color: #414658;
+    position: fixed;
+}
+header .navigation #close {
+    position: absolute !important;
+    right: 15%;
+    top: 10%;
+}
+header .navigation .side-nav {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+header .navigation .side-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 20px 10px;
+    transition: all 0.5s;
+}
+header .navigation .side-nav a:hover {
+    color: rgba(214, 46, 51, 0.6);
+}
+header .navigation #btn {
+    position: absolute;
+    right: -120px;
+    top: 50%;
+    font-size: 25px;
+    border: none;
+    color: black;
+    transition: all;
+}
+header .navigation #btn:hover{
+    border: none;
+    color: black;
+}
+header .navigation #btn p {
+    position: relative;
+    bottom: 7px;
+    margin-left: 5px;
+}
+/* End Header Section */
+
+
+/* Start Details Section */
+#Details .PartySingers {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+#Details .PartySingers .SingerBtn {
+    color: white;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(214, 46, 51, 0.6);;
+}
+#Details .PartySingers p {
+    background-color: #ccc;
+    color: black;
+    margin-bottom: 0 ;
+}
+/* End Details Section */
+
+
+/* Start Duration Section */
+#Duration {
+    background-image: url(/Images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+#Duration .overlay{
+    inset: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    z-index: 1;
+}
+#Duration .time {
+    border: 1px solid white;
+    height: 150px;
+    width: 50px;
+    position: relative;
+    z-index: 3;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 50px 150px 50px 100px ;
+    font-size: 24px;
+    color: white;
+}
+/* End Duration Section */
+
+
+
+
+/* Start Contact Section */
+#Contact .contact-Icn {
+    padding-left: 10px ;
+}
+#Contact .contact-Icn path {
+    color: red;
+}
+#Contact .contact-Icn p {
+    position: relative;
+    bottom: 5px;
+    margin-left: 5px;
+}
+.msg-red {
+    color: red;
+}
+#Contact .social-icn svg {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: red;
+    cursor: pointer;
+}
+#Contact .social-icn svg:hover {
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+}
+#Contact input,textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#Contact span {
+    color: red
+}
+#Contact button:hover {
+    color: white;
+    background-color: red;
+}
+/* End Contact Section */
